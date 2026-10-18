@@ -42,7 +42,7 @@
             labelTitulo.Name = "labelTitulo";
             labelTitulo.Size = new Size(800, 75);
             labelTitulo.TabIndex = 0;
-            labelTitulo.Text = "Agenda de clientes";
+            labelTitulo.Text = "Agenda de clientes personalizada";
             labelTitulo.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // buttonSalir
