@@ -48,12 +48,12 @@
             // buttonSalir
             // 
             buttonSalir.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            buttonSalir.BackColor = Color.Firebrick;
-            buttonSalir.FlatAppearance.BorderColor = Color.Black;
-            buttonSalir.FlatAppearance.BorderSize = 3;
+            buttonSalir.BackColor = Color.LightPink;
+            buttonSalir.FlatAppearance.BorderColor = Color.Gray;
+            buttonSalir.FlatAppearance.BorderSize = 1;
             buttonSalir.FlatStyle = FlatStyle.Flat;
             buttonSalir.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonSalir.ForeColor = Color.White;
+            buttonSalir.ForeColor = Color.Black;
             buttonSalir.Location = new Point(681, 391);
             buttonSalir.Name = "buttonSalir";
             buttonSalir.Size = new Size(107, 47);

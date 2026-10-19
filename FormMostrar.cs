@@ -17,11 +17,10 @@ namespace AgendaClientes
 
         private void FormMostrar_Load(object sender, EventArgs e)
         {
-            dataGridViewClientes.Rows.Clear();
             foreach (Object cli in ClaseEstatica.MiAgenda.ListaCli)
             {
-                Cliente c = (Cliente)cli;
-                dataGridViewClientes.Rows.Add(c.Nombre, c.TelefonoCli, c.Empresa, c.Email);
+                Cliente y = (Cliente)cli;
+                listBoxClientes.Items.Add(y.imprimirCliente());
             }
         }
 

@@ -23,7 +23,6 @@ namespace AgendaClientes
             c.Empresa = textBoxEmpresa.Text;
             c.Email = textBoxEmail.Text;
             ClaseEstatica.MiAgenda.AgregarCliente(c);
-            MessageBox.Show("Cliente agregado");
             textBoxNombre.Clear();
             textBoxTelefono.Clear();
             textBoxEmpresa.Clear();

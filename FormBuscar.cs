@@ -48,7 +48,6 @@ namespace AgendaClientes
             {
                 ClaseEstatica.MiAgenda.BorrarCliente(posicion);
                 posicion = -1;
-                MessageBox.Show("Cliente borrado");
                 textBoxBuscar.Clear();
                 textBoxNombre.Clear();
                 textBoxTelefono.Clear();
@@ -71,7 +70,6 @@ namespace AgendaClientes
                 c.Empresa = textBoxEmpresa.Text;
                 c.Email = textBoxEmail.Text;
                 ClaseEstatica.MiAgenda.ActualizarCliente(posicion, c);
-                MessageBox.Show("Cliente actualizado");
             }
         }
 

@@ -62,9 +62,9 @@
             // textBoxPropietario
             // 
             textBoxPropietario.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBoxPropietario.Location = new Point(399, 188);
+            textBoxPropietario.Location = new Point(400, 188);
             textBoxPropietario.Name = "textBoxPropietario";
-            textBoxPropietario.Size = new Size(222, 38);
+            textBoxPropietario.Size = new Size(270, 38);
             textBoxPropietario.TabIndex = 4;
             // 
             // labelTelefono
@@ -80,22 +80,22 @@
             // textBoxTelefono
             // 
             textBoxTelefono.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBoxTelefono.Location = new Point(402, 267);
+            textBoxTelefono.Location = new Point(400, 267);
             textBoxTelefono.Name = "textBoxTelefono";
-            textBoxTelefono.Size = new Size(219, 38);
+            textBoxTelefono.Size = new Size(270, 38);
             textBoxTelefono.TabIndex = 6;
             // 
             // buttonContinuar
             // 
-            buttonContinuar.BackColor = Color.Green;
-            buttonContinuar.FlatAppearance.BorderColor = Color.Black;
-            buttonContinuar.FlatAppearance.BorderSize = 3;
+            buttonContinuar.BackColor = Color.PaleGreen;
+            buttonContinuar.FlatAppearance.BorderColor = Color.Gray;
+            buttonContinuar.FlatAppearance.BorderSize = 1;
             buttonContinuar.FlatStyle = FlatStyle.Flat;
-            buttonContinuar.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonContinuar.ForeColor = Color.White;
-            buttonContinuar.Location = new Point(322, 389);
+            buttonContinuar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonContinuar.ForeColor = Color.Black;
+            buttonContinuar.Location = new Point(318, 391);
             buttonContinuar.Name = "buttonContinuar";
-            buttonContinuar.Size = new Size(164, 48);
+            buttonContinuar.Size = new Size(164, 47);
             buttonContinuar.TabIndex = 7;
             buttonContinuar.Text = "Continuar";
             buttonContinuar.UseVisualStyleBackColor = false;

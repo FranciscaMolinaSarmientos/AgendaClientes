@@ -66,7 +66,7 @@
             //
             labelPropietario.AutoSize = true;
             labelPropietario.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelPropietario.ForeColor = Color.DarkSlateGray;
+            labelPropietario.ForeColor = Color.Black;
             labelPropietario.Location = new Point(200, 170);
             labelPropietario.Name = "labelPropietario";
             labelPropietario.Size = new Size(130, 31);
@@ -87,7 +87,7 @@
             //
             labelTelefono.AutoSize = true;
             labelTelefono.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelTelefono.ForeColor = Color.DarkSlateGray;
+            labelTelefono.ForeColor = Color.Black;
             labelTelefono.Location = new Point(560, 170);
             labelTelefono.Name = "labelTelefono";
             labelTelefono.Size = new Size(98, 31);
@@ -96,12 +96,12 @@
             //
             // buttonMostrar
             //
-            buttonMostrar.BackColor = Color.SteelBlue;
-            buttonMostrar.FlatAppearance.BorderColor = Color.Black;
-            buttonMostrar.FlatAppearance.BorderSize = 3;
+            buttonMostrar.BackColor = Color.LightBlue;
+            buttonMostrar.FlatAppearance.BorderColor = Color.Gray;
+            buttonMostrar.FlatAppearance.BorderSize = 1;
             buttonMostrar.FlatStyle = FlatStyle.Flat;
             buttonMostrar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonMostrar.ForeColor = Color.White;
+            buttonMostrar.ForeColor = Color.Black;
             buttonMostrar.Location = new Point(60, 260);
             buttonMostrar.Name = "buttonMostrar";
             buttonMostrar.Size = new Size(200, 60);
@@ -112,12 +112,12 @@
             //
             // buttonAgregar
             //
-            buttonAgregar.BackColor = Color.SteelBlue;
-            buttonAgregar.FlatAppearance.BorderColor = Color.Black;
-            buttonAgregar.FlatAppearance.BorderSize = 3;
+            buttonAgregar.BackColor = Color.PaleGreen;
+            buttonAgregar.FlatAppearance.BorderColor = Color.Gray;
+            buttonAgregar.FlatAppearance.BorderSize = 1;
             buttonAgregar.FlatStyle = FlatStyle.Flat;
             buttonAgregar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonAgregar.ForeColor = Color.White;
+            buttonAgregar.ForeColor = Color.Black;
             buttonAgregar.Location = new Point(300, 260);
             buttonAgregar.Name = "buttonAgregar";
             buttonAgregar.Size = new Size(200, 60);
@@ -128,12 +128,12 @@
             //
             // buttonBuscar
             //
-            buttonBuscar.BackColor = Color.SteelBlue;
-            buttonBuscar.FlatAppearance.BorderColor = Color.Black;
-            buttonBuscar.FlatAppearance.BorderSize = 3;
+            buttonBuscar.BackColor = Color.Pink;
+            buttonBuscar.FlatAppearance.BorderColor = Color.Gray;
+            buttonBuscar.FlatAppearance.BorderSize = 1;
             buttonBuscar.FlatStyle = FlatStyle.Flat;
             buttonBuscar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonBuscar.ForeColor = Color.White;
+            buttonBuscar.ForeColor = Color.Black;
             buttonBuscar.Location = new Point(540, 260);
             buttonBuscar.Name = "buttonBuscar";
             buttonBuscar.Size = new Size(200, 60);
@@ -145,12 +145,12 @@
             // buttonRegresar
             //
             buttonRegresar.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            buttonRegresar.BackColor = Color.DimGray;
-            buttonRegresar.FlatAppearance.BorderColor = Color.Black;
-            buttonRegresar.FlatAppearance.BorderSize = 3;
+            buttonRegresar.BackColor = Color.Gainsboro;
+            buttonRegresar.FlatAppearance.BorderColor = Color.Gray;
+            buttonRegresar.FlatAppearance.BorderSize = 1;
             buttonRegresar.FlatStyle = FlatStyle.Flat;
             buttonRegresar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonRegresar.ForeColor = Color.White;
+            buttonRegresar.ForeColor = Color.Black;
             buttonRegresar.Location = new Point(12, 391);
             buttonRegresar.Name = "buttonRegresar";
             buttonRegresar.Size = new Size(130, 47);
