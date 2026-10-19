@@ -62,7 +62,7 @@ namespace AgendaClientes
             // 
             labelBuscar.AutoSize = true;
             labelBuscar.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelBuscar.Location = new Point(60, 167);
+            labelBuscar.Location = new Point(130, 150);
             labelBuscar.Name = "labelBuscar";
             labelBuscar.Size = new Size(176, 31);
             labelBuscar.TabIndex = 3;
@@ -71,9 +71,9 @@ namespace AgendaClientes
             // textBoxBuscar
             // 
             textBoxBuscar.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBoxBuscar.Location = new Point(260, 160);
+            textBoxBuscar.Location = new Point(330, 143);
             textBoxBuscar.Name = "textBoxBuscar";
-            textBoxBuscar.Size = new Size(290, 38);
+            textBoxBuscar.Size = new Size(300, 38);
             textBoxBuscar.TabIndex = 4;
             // 
             // buttonBuscar
@@ -84,7 +84,7 @@ namespace AgendaClientes
             buttonBuscar.FlatStyle = FlatStyle.Flat;
             buttonBuscar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonBuscar.ForeColor = Color.Black;
-            buttonBuscar.Location = new Point(570, 156);
+            buttonBuscar.Location = new Point(645, 139);
             buttonBuscar.Name = "buttonBuscar";
             buttonBuscar.Size = new Size(130, 47);
             buttonBuscar.TabIndex = 5;
@@ -96,7 +96,7 @@ namespace AgendaClientes
             // 
             labelNombre.AutoSize = true;
             labelNombre.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelNombre.Location = new Point(130, 237);
+            labelNombre.Location = new Point(200, 205);
             labelNombre.Name = "labelNombre";
             labelNombre.Size = new Size(95, 31);
             labelNombre.TabIndex = 6;
@@ -105,16 +105,16 @@ namespace AgendaClientes
             // textBoxNombre
             // 
             textBoxNombre.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBoxNombre.Location = new Point(400, 230);
+            textBoxNombre.Location = new Point(330, 198);
             textBoxNombre.Name = "textBoxNombre";
-            textBoxNombre.Size = new Size(270, 38);
+            textBoxNombre.Size = new Size(300, 38);
             textBoxNombre.TabIndex = 7;
             // 
             // labelTelefono
             // 
             labelTelefono.AutoSize = true;
             labelTelefono.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelTelefono.Location = new Point(130, 292);
+            labelTelefono.Location = new Point(200, 251);
             labelTelefono.Name = "labelTelefono";
             labelTelefono.Size = new Size(103, 31);
             labelTelefono.TabIndex = 8;
@@ -123,16 +123,16 @@ namespace AgendaClientes
             // textBoxTelefono
             // 
             textBoxTelefono.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBoxTelefono.Location = new Point(400, 285);
+            textBoxTelefono.Location = new Point(330, 244);
             textBoxTelefono.Name = "textBoxTelefono";
-            textBoxTelefono.Size = new Size(270, 38);
+            textBoxTelefono.Size = new Size(300, 38);
             textBoxTelefono.TabIndex = 9;
             // 
             // labelEmpresa
             // 
             labelEmpresa.AutoSize = true;
             labelEmpresa.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelEmpresa.Location = new Point(130, 347);
+            labelEmpresa.Location = new Point(200, 297);
             labelEmpresa.Name = "labelEmpresa";
             labelEmpresa.Size = new Size(99, 31);
             labelEmpresa.TabIndex = 10;
@@ -141,16 +141,16 @@ namespace AgendaClientes
             // textBoxEmpresa
             // 
             textBoxEmpresa.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBoxEmpresa.Location = new Point(400, 340);
+            textBoxEmpresa.Location = new Point(330, 290);
             textBoxEmpresa.Name = "textBoxEmpresa";
-            textBoxEmpresa.Size = new Size(270, 38);
+            textBoxEmpresa.Size = new Size(300, 38);
             textBoxEmpresa.TabIndex = 11;
             // 
             // labelEmail
             // 
             labelEmail.AutoSize = true;
             labelEmail.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelEmail.Location = new Point(130, 402);
+            labelEmail.Location = new Point(200, 343);
             labelEmail.Name = "labelEmail";
             labelEmail.Size = new Size(66, 31);
             labelEmail.TabIndex = 12;
@@ -159,20 +159,20 @@ namespace AgendaClientes
             // textBoxEmail
             // 
             textBoxEmail.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBoxEmail.Location = new Point(400, 395);
+            textBoxEmail.Location = new Point(330, 336);
             textBoxEmail.Name = "textBoxEmail";
-            textBoxEmail.Size = new Size(270, 38);
+            textBoxEmail.Size = new Size(300, 38);
             textBoxEmail.TabIndex = 13;
             // 
             // buttonBorrar
             // 
-            buttonBorrar.BackColor = Color.Thistle;
+            buttonBorrar.BackColor = Color.FromArgb(255, 210, 165);
             buttonBorrar.FlatAppearance.BorderColor = Color.Gray;
             buttonBorrar.FlatAppearance.BorderSize = 1;
             buttonBorrar.FlatStyle = FlatStyle.Flat;
             buttonBorrar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonBorrar.ForeColor = Color.Black;
-            buttonBorrar.Location = new Point(230, 471);
+            buttonBorrar.Location = new Point(250, 391);
             buttonBorrar.Name = "buttonBorrar";
             buttonBorrar.Size = new Size(150, 47);
             buttonBorrar.TabIndex = 14;
@@ -182,13 +182,13 @@ namespace AgendaClientes
             // 
             // buttonActualizar
             // 
-            buttonActualizar.BackColor = Color.PaleGreen;
+            buttonActualizar.BackColor = Color.FromArgb(190, 230, 200);
             buttonActualizar.FlatAppearance.BorderColor = Color.Gray;
             buttonActualizar.FlatAppearance.BorderSize = 1;
             buttonActualizar.FlatStyle = FlatStyle.Flat;
             buttonActualizar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonActualizar.ForeColor = Color.Black;
-            buttonActualizar.Location = new Point(420, 471);
+            buttonActualizar.Location = new Point(420, 391);
             buttonActualizar.Name = "buttonActualizar";
             buttonActualizar.Size = new Size(150, 47);
             buttonActualizar.TabIndex = 15;
@@ -205,7 +205,7 @@ namespace AgendaClientes
             buttonRegresar.FlatStyle = FlatStyle.Flat;
             buttonRegresar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonRegresar.ForeColor = Color.Black;
-            buttonRegresar.Location = new Point(12, 471);
+            buttonRegresar.Location = new Point(12, 391);
             buttonRegresar.Name = "buttonRegresar";
             buttonRegresar.Size = new Size(130, 47);
             buttonRegresar.TabIndex = 16;
@@ -217,7 +217,7 @@ namespace AgendaClientes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 530);
+            ClientSize = new Size(800, 450);
             Controls.Add(buttonRegresar);
             Controls.Add(buttonActualizar);
             Controls.Add(buttonBorrar);

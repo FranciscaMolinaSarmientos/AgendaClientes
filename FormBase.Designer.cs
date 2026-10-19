@@ -48,7 +48,7 @@
             // buttonSalir
             // 
             buttonSalir.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            buttonSalir.BackColor = Color.LightPink;
+            buttonSalir.BackColor = Color.LightCoral;
             buttonSalir.FlatAppearance.BorderColor = Color.Gray;
             buttonSalir.FlatAppearance.BorderSize = 1;
             buttonSalir.FlatStyle = FlatStyle.Flat;

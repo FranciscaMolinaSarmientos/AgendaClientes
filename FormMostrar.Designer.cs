@@ -28,9 +28,15 @@ namespace AgendaClientes
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             labelSubtitulo = new Label();
-            listBoxClientes = new ListBox();
+            dataGridViewClientes = new DataGridView();
+            columnNombre = new DataGridViewTextBoxColumn();
+            columnTelefono = new DataGridViewTextBoxColumn();
+            columnEmpresa = new DataGridViewTextBoxColumn();
+            columnEmail = new DataGridViewTextBoxColumn();
             buttonRegresar = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewClientes).BeginInit();
             SuspendLayout();
             //
             // labelSubtitulo
@@ -46,16 +52,53 @@ namespace AgendaClientes
             labelSubtitulo.Text = "Mostrar clientes";
             labelSubtitulo.TextAlign = ContentAlignment.MiddleCenter;
             //
-            // listBoxClientes
+            // dataGridViewClientes
             //
-            listBoxClientes.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            listBoxClientes.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            listBoxClientes.FormattingEnabled = true;
-            listBoxClientes.HorizontalScrollbar = true;
-            listBoxClientes.Location = new Point(25, 145);
-            listBoxClientes.Name = "listBoxClientes";
-            listBoxClientes.Size = new Size(750, 229);
-            listBoxClientes.TabIndex = 3;
+            dataGridViewClientes.AllowUserToAddRows = false;
+            dataGridViewClientes.AllowUserToDeleteRows = false;
+            dataGridViewClientes.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dataGridViewClientes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewClientes.BackgroundColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewClientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewClientes.Columns.AddRange(new DataGridViewColumn[] { columnNombre, columnTelefono, columnEmpresa, columnEmail });
+            dataGridViewClientes.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewClientes.Location = new Point(25, 145);
+            dataGridViewClientes.Name = "dataGridViewClientes";
+            dataGridViewClientes.ReadOnly = true;
+            dataGridViewClientes.RowHeadersVisible = false;
+            dataGridViewClientes.RowHeadersWidth = 51;
+            dataGridViewClientes.Size = new Size(750, 230);
+            dataGridViewClientes.TabIndex = 3;
+            //
+            // columnNombre
+            //
+            columnNombre.HeaderText = "Nombre";
+            columnNombre.MinimumWidth = 6;
+            columnNombre.Name = "columnNombre";
+            columnNombre.ReadOnly = true;
+            //
+            // columnTelefono
+            //
+            columnTelefono.HeaderText = "Teléfono";
+            columnTelefono.MinimumWidth = 6;
+            columnTelefono.Name = "columnTelefono";
+            columnTelefono.ReadOnly = true;
+            //
+            // columnEmpresa
+            //
+            columnEmpresa.HeaderText = "Empresa";
+            columnEmpresa.MinimumWidth = 6;
+            columnEmpresa.Name = "columnEmpresa";
+            columnEmpresa.ReadOnly = true;
+            //
+            // columnEmail
+            //
+            columnEmail.HeaderText = "Email";
+            columnEmail.MinimumWidth = 6;
+            columnEmail.Name = "columnEmail";
+            columnEmail.ReadOnly = true;
             //
             // buttonRegresar
             //
@@ -80,21 +123,26 @@ namespace AgendaClientes
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(buttonRegresar);
-            Controls.Add(listBoxClientes);
+            Controls.Add(dataGridViewClientes);
             Controls.Add(labelSubtitulo);
             Name = "FormMostrar";
             Text = "Agenda de clientes";
             Load += FormMostrar_Load;
             Controls.SetChildIndex(labelSubtitulo, 0);
-            Controls.SetChildIndex(listBoxClientes, 0);
+            Controls.SetChildIndex(dataGridViewClientes, 0);
             Controls.SetChildIndex(buttonRegresar, 0);
+            ((System.ComponentModel.ISupportInitialize)dataGridViewClientes).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Label labelSubtitulo;
-        private ListBox listBoxClientes;
+        private DataGridView dataGridViewClientes;
+        private DataGridViewTextBoxColumn columnNombre;
+        private DataGridViewTextBoxColumn columnTelefono;
+        private DataGridViewTextBoxColumn columnEmpresa;
+        private DataGridViewTextBoxColumn columnEmail;
         private Button buttonRegresar;
     }
 }

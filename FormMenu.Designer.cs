@@ -112,7 +112,7 @@
             //
             // buttonAgregar
             //
-            buttonAgregar.BackColor = Color.PaleGreen;
+            buttonAgregar.BackColor = Color.FromArgb(190, 230, 200);
             buttonAgregar.FlatAppearance.BorderColor = Color.Gray;
             buttonAgregar.FlatAppearance.BorderSize = 1;
             buttonAgregar.FlatStyle = FlatStyle.Flat;

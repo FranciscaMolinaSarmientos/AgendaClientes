@@ -87,7 +87,7 @@
             // 
             // buttonContinuar
             // 
-            buttonContinuar.BackColor = Color.PaleGreen;
+            buttonContinuar.BackColor = Color.FromArgb(190, 230, 200);
             buttonContinuar.FlatAppearance.BorderColor = Color.Gray;
             buttonContinuar.FlatAppearance.BorderSize = 1;
             buttonContinuar.FlatStyle = FlatStyle.Flat;

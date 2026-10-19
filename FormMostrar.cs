@@ -20,7 +20,7 @@ namespace AgendaClientes
             foreach (Object cli in ClaseEstatica.MiAgenda.ListaCli)
             {
                 Cliente y = (Cliente)cli;
-                listBoxClientes.Items.Add(y.imprimirCliente());
+                dataGridViewClientes.Rows.Add(y.Nombre, y.TelefonoCli, y.Empresa, y.Email);
             }
         }
 
