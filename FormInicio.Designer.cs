@@ -99,7 +99,7 @@
             buttonContinuar.TabIndex = 7;
             buttonContinuar.Text = "Continuar";
             buttonContinuar.UseVisualStyleBackColor = false;
-            buttonContinuar.Click += this.buttonContinuar_Click;
+            buttonContinuar.Click += buttonContinuar_Click;
             // 
             // FormInicio
             // 

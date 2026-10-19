@@ -29,127 +29,162 @@
         private void InitializeComponent()
         {
             labelSubtitulo = new Label();
-            labelAgendaDe = new Label();
+            labelTituloPropietario = new Label();
             labelPropietario = new Label();
-            labelTel = new Label();
-            label4 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            labelTituloTelefono = new Label();
+            labelTelefono = new Label();
+            buttonMostrar = new Button();
+            buttonAgregar = new Button();
+            buttonBuscar = new Button();
+            buttonRegresar = new Button();
             SuspendLayout();
-            // 
+            //
             // labelSubtitulo
-            // 
+            //
             labelSubtitulo.BackColor = Color.LightGray;
             labelSubtitulo.Dock = DockStyle.Top;
             labelSubtitulo.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelSubtitulo.ForeColor = Color.Black;
             labelSubtitulo.Location = new Point(0, 75);
             labelSubtitulo.Name = "labelSubtitulo";
-            labelSubtitulo.Size = new Size(800, 54);
+            labelSubtitulo.Size = new Size(800, 55);
             labelSubtitulo.TabIndex = 2;
             labelSubtitulo.Text = "Operaciones";
             labelSubtitulo.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // labelAgendaDe
-            // 
-            labelAgendaDe.AutoSize = true;
-            labelAgendaDe.Location = new Point(39, 141);
-            labelAgendaDe.Name = "labelAgendaDe";
-            labelAgendaDe.Size = new Size(85, 20);
-            labelAgendaDe.TabIndex = 3;
-            labelAgendaDe.Text = "Agenda de:";
-            // 
+            //
+            // labelTituloPropietario
+            //
+            labelTituloPropietario.AutoSize = true;
+            labelTituloPropietario.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTituloPropietario.Location = new Point(60, 170);
+            labelTituloPropietario.Name = "labelTituloPropietario";
+            labelTituloPropietario.Size = new Size(131, 31);
+            labelTituloPropietario.TabIndex = 3;
+            labelTituloPropietario.Text = "Agenda de:";
+            //
             // labelPropietario
-            // 
+            //
             labelPropietario.AutoSize = true;
-            labelPropietario.Location = new Point(39, 206);
+            labelPropietario.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelPropietario.ForeColor = Color.DarkSlateGray;
+            labelPropietario.Location = new Point(200, 170);
             labelPropietario.Name = "labelPropietario";
-            labelPropietario.Size = new Size(83, 20);
+            labelPropietario.Size = new Size(130, 31);
             labelPropietario.TabIndex = 4;
-            labelPropietario.Text = "Propietario";
-            // 
-            // labelTel
-            // 
-            labelTel.AutoSize = true;
-            labelTel.Location = new Point(39, 269);
-            labelTel.Name = "labelTel";
-            labelTel.Size = new Size(67, 20);
-            labelTel.TabIndex = 5;
-            labelTel.Text = "Teléfono";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(39, 322);
-            label4.Name = "label4";
-            label4.Size = new Size(50, 20);
-            label4.TabIndex = 6;
-            label4.Text = "label4";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(131, 144);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 7;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(131, 206);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 8;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(131, 265);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 9;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(147, 322);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 10;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
-            // 
+            labelPropietario.Text = "propietario";
+            //
+            // labelTituloTelefono
+            //
+            labelTituloTelefono.AutoSize = true;
+            labelTituloTelefono.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTituloTelefono.Location = new Point(440, 170);
+            labelTituloTelefono.Name = "labelTituloTelefono";
+            labelTituloTelefono.Size = new Size(111, 31);
+            labelTituloTelefono.TabIndex = 5;
+            labelTituloTelefono.Text = "Teléfono:";
+            //
+            // labelTelefono
+            //
+            labelTelefono.AutoSize = true;
+            labelTelefono.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelTelefono.ForeColor = Color.DarkSlateGray;
+            labelTelefono.Location = new Point(560, 170);
+            labelTelefono.Name = "labelTelefono";
+            labelTelefono.Size = new Size(98, 31);
+            labelTelefono.TabIndex = 6;
+            labelTelefono.Text = "telefono";
+            //
+            // buttonMostrar
+            //
+            buttonMostrar.BackColor = Color.SteelBlue;
+            buttonMostrar.FlatAppearance.BorderColor = Color.Black;
+            buttonMostrar.FlatAppearance.BorderSize = 3;
+            buttonMostrar.FlatStyle = FlatStyle.Flat;
+            buttonMostrar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonMostrar.ForeColor = Color.White;
+            buttonMostrar.Location = new Point(60, 260);
+            buttonMostrar.Name = "buttonMostrar";
+            buttonMostrar.Size = new Size(200, 60);
+            buttonMostrar.TabIndex = 7;
+            buttonMostrar.Text = "Mostrar clientes";
+            buttonMostrar.UseVisualStyleBackColor = false;
+            buttonMostrar.Click += buttonMostrar_Click;
+            //
+            // buttonAgregar
+            //
+            buttonAgregar.BackColor = Color.SteelBlue;
+            buttonAgregar.FlatAppearance.BorderColor = Color.Black;
+            buttonAgregar.FlatAppearance.BorderSize = 3;
+            buttonAgregar.FlatStyle = FlatStyle.Flat;
+            buttonAgregar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonAgregar.ForeColor = Color.White;
+            buttonAgregar.Location = new Point(300, 260);
+            buttonAgregar.Name = "buttonAgregar";
+            buttonAgregar.Size = new Size(200, 60);
+            buttonAgregar.TabIndex = 8;
+            buttonAgregar.Text = "Agregar cliente";
+            buttonAgregar.UseVisualStyleBackColor = false;
+            buttonAgregar.Click += buttonAgregar_Click;
+            //
+            // buttonBuscar
+            //
+            buttonBuscar.BackColor = Color.SteelBlue;
+            buttonBuscar.FlatAppearance.BorderColor = Color.Black;
+            buttonBuscar.FlatAppearance.BorderSize = 3;
+            buttonBuscar.FlatStyle = FlatStyle.Flat;
+            buttonBuscar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonBuscar.ForeColor = Color.White;
+            buttonBuscar.Location = new Point(540, 260);
+            buttonBuscar.Name = "buttonBuscar";
+            buttonBuscar.Size = new Size(200, 60);
+            buttonBuscar.TabIndex = 9;
+            buttonBuscar.Text = "Buscar cliente";
+            buttonBuscar.UseVisualStyleBackColor = false;
+            buttonBuscar.Click += buttonBuscar_Click;
+            //
+            // buttonRegresar
+            //
+            buttonRegresar.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            buttonRegresar.BackColor = Color.DimGray;
+            buttonRegresar.FlatAppearance.BorderColor = Color.Black;
+            buttonRegresar.FlatAppearance.BorderSize = 3;
+            buttonRegresar.FlatStyle = FlatStyle.Flat;
+            buttonRegresar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonRegresar.ForeColor = Color.White;
+            buttonRegresar.Location = new Point(12, 391);
+            buttonRegresar.Name = "buttonRegresar";
+            buttonRegresar.Size = new Size(130, 47);
+            buttonRegresar.TabIndex = 10;
+            buttonRegresar.Text = "Regresar";
+            buttonRegresar.UseVisualStyleBackColor = false;
+            buttonRegresar.Click += buttonRegresar_Click;
+            //
             // FormMenu
-            // 
+            //
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label4);
-            Controls.Add(labelTel);
+            Controls.Add(buttonRegresar);
+            Controls.Add(buttonBuscar);
+            Controls.Add(buttonAgregar);
+            Controls.Add(buttonMostrar);
+            Controls.Add(labelTelefono);
+            Controls.Add(labelTituloTelefono);
             Controls.Add(labelPropietario);
-            Controls.Add(labelAgendaDe);
+            Controls.Add(labelTituloPropietario);
             Controls.Add(labelSubtitulo);
             Name = "FormMenu";
             Text = "Agenda de clientes";
             Load += FormMenu_Load;
             Controls.SetChildIndex(labelSubtitulo, 0);
-            Controls.SetChildIndex(labelAgendaDe, 0);
+            Controls.SetChildIndex(labelTituloPropietario, 0);
             Controls.SetChildIndex(labelPropietario, 0);
-            Controls.SetChildIndex(labelTel, 0);
-            Controls.SetChildIndex(label4, 0);
-            Controls.SetChildIndex(button1, 0);
-            Controls.SetChildIndex(button2, 0);
-            Controls.SetChildIndex(button3, 0);
-            Controls.SetChildIndex(button4, 0);
+            Controls.SetChildIndex(labelTituloTelefono, 0);
+            Controls.SetChildIndex(labelTelefono, 0);
+            Controls.SetChildIndex(buttonMostrar, 0);
+            Controls.SetChildIndex(buttonAgregar, 0);
+            Controls.SetChildIndex(buttonBuscar, 0);
+            Controls.SetChildIndex(buttonRegresar, 0);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -157,13 +192,13 @@
         #endregion
 
         private Label labelSubtitulo;
-        private Label labelAgendaDe;
+        private Label labelTituloPropietario;
         private Label labelPropietario;
-        private Label labelTel;
-        private Label label4;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private Label labelTituloTelefono;
+        private Label labelTelefono;
+        private Button buttonMostrar;
+        private Button buttonAgregar;
+        private Button buttonBuscar;
+        private Button buttonRegresar;
     }
 }

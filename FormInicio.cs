@@ -5,15 +5,14 @@ namespace AgendaClientes
         public FormInicio()
         {
             InitializeComponent();
-            buttonContinuar.Click += buttonContinuar_Click;
         }
 
         private void buttonContinuar_Click(object sender, EventArgs e)
         {
             ClaseEstatica.MiAgenda.Propietario = textBoxPropietario.Text;
             ClaseEstatica.MiAgenda.TelPropietario = textBoxTelefono.Text;
-            //FormMenu menu = new FormMenu();
-            //menu.Show();
+            FormMenu menu = new FormMenu();
+            menu.Show();
         }
     }
 }
